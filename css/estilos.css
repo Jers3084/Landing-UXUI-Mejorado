@@ -159,6 +159,11 @@ main {
   align-items: center;
 }
 
+.card:hover {
+  transition: all 0.5s;
+  transform: scale(1.02);
+}
+
 figure {
   height: 170px;
   margin-top: 5px;
